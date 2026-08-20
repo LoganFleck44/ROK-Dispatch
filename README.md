@@ -19,14 +19,14 @@ is stored in the browser's `localStorage`, so it runs entirely client-side.
 Requires [Node.js](https://nodejs.org).
 
 ```bash
-node server.js
+node local/server.js
 ```
 
 Then open http://localhost:4173. On Windows you can also double-click `start.bat`.
 
 ## Project structure
 
-- `server.js` — zero-dependency static file server
+- `local/server.js` — zero-dependency static file server, for local use only
 - `public/index.html` — app shell
 - `public/styles.css` — all styling
 - `public/data.js` — seed data + localStorage-backed data layer
